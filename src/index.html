@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+  <!-- top bar -->
+  <div class="flex h-14 space-x-4 p-2 w-full border-solid border-slate-150 border-b-2">
+    <!-- logo -->
+    <div class="flex w-2/12">
+      <svg xmlns="http://www.w3.org/2000/svg" class="fill-sky-400 stroke-sky-500" viewBox="0 0 24 24" stroke-width="1">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z" />
+      </svg>
+      <span class="self-center">nDrive</span>
+    </div>
+    <!-- logo ends -->
+
+    <!-- search box -->
+    <div class="w-6/12 flex relative focus:shadow-md focus:ring-0 focus:ring-offset-0 outline-0 focus:outline-0">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 stroke-slate-400 self-center absolute pl-3" fill="none" viewBox="0 0 24 24" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+      </svg>
+      <input type="text" name="search" id="search" class="rounded-md bg-slate-100 pl-10 flex-1 block sm:text-sm focus:bg-white focus:shadow-md focus:outline-0" placeholder="search files...">
+    </div>
+    <!-- search box ends -->
+
+    <!-- private section -->
+    <div class="flex w-4/12 justify-end">
+      <img src="img/the-guy.jpg" alt="Profile Pic" class="rounded-full">
+    </div> 
+    <!-- private section ends  -->
+
+  </div>
+  <!-- top bar ends -->
+</body>
+</html>
